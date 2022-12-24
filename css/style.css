@@ -117,8 +117,20 @@ button {
 	background-color: #262C27;
 	border: none;
 	cursor: pointer;
+  transition: all .3s;
 }
 
+.header__btn:hover {
+	background-color: #0093A1;
+}
+
+.header__phone {
+  transition: all .3s;
+}
+
+.header__phone:hover {
+  color: #4c8092;
+}
 
 .header__content {
 	min-height: calc(100vh - 161px);
@@ -568,6 +580,12 @@ button {
 	font-size: 20px;
 	line-height: 22px;
 	color: #000;
+  transition: all .3s;
+}
+
+.footer__form-btn:hover {
+  color: #fff;
+  background-color: #0093A1;
 }
 
 .footer__social-title {
@@ -586,6 +604,14 @@ button {
 	font-weight: 700;
 	display: flex;
 	justify-content: space-between;
+}
+
+.footer__menu-link {
+  transition: all .3s;
+}
+
+.footer__menu-link:hover {
+  color: #0093A1;
 }
 
 .footer__logo {
